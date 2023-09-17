@@ -2,3 +2,7 @@
 show database;
 --- to create a database
 create datbase noob_db;
+---to delete a database
+drop database noob_db;
+---to get inside a database
+use noob_db;
