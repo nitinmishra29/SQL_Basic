@@ -1,2 +1,4 @@
 ---command to see the list of database
 show database;
+--- to create a database
+create datbase noob_db;
