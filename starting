@@ -27,3 +27,34 @@ create table if not exist employee
 emp_name VARCHAR(20) );
 --- to show the table
 show table;
+---copy 2
+---command to see the list of database
+show database;
+--- to create a database
+create datbase noob_db;
+---to delete a database
+drop database noob_db;
+---to get inside a database
+use noob_db;
+---create a table in db
+create table if not exist employee
+( id INT,
+emp_name VARCHAR(20) );
+--- to show the table
+show table;
+---copy item
+---command to see the list of database
+show database;
+--- to create a database
+create datbase noob_db;
+---to delete a database
+drop database noob_db;
+---to get inside a database
+use noob_db;
+---create a table in db
+create table if not exist employee
+( id INT,
+emp_name VARCHAR(20) );
+--- to show the table
+show table;
+
