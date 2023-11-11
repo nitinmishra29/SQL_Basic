@@ -152,18 +152,6 @@ select * from employee;
 
 hiring_date date
 );
----syntax to insert data into a table
-insert into employee values(01,'shaku',5000,2015-05-21);
----syntax 2 insert data into table
-insert into employee(salary,name,id) values(1000,"raju",2);
----command to insert multiple record into a table
-insert into employee values(3,"shyam",1555,2015-05-06),
-(4,"shyamalal",15000,2015-04-04),(5,"raja",2005,2025-07-06);
----how to query or fetch data from a table
-select * from employee;
-
-
----c
 ---to get inside a database
 use noob_db;
 ---create a table in db
