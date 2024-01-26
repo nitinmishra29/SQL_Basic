@@ -121,34 +121,9 @@ show table;
 --- command to see the table defination
 show create table employee;
 ---create employee table with few more table
-create table if not exist employee(
-id i
-drop database noob_db;
----to get inside a database
-use noob_db;
----create a table in db
-create table if not exist employee
-( id INT,
-emp_name VARCHAR(20) );
---- to show the table
-show table;
---- command to see the table defination
-show create table employee;
----create employee table with few more table
-create table if not exist employee(
-id int,
-name varvhar(20),
-salary double,
-hiring_date date
-);
----syn
-id int,
-name,2015-05-06),
-(4,"shyamalal",15000,2015-04-04),(5,"raja",2005,2025-07-06);
----how to query or fetch data from a table
-select * from employee;
 
----copy item---command to see the list of database
+hiring_date date
+);ee the list of database
 show database;
 --- to create a database
 create datbase noob_db;
